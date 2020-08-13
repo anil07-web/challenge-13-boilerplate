@@ -15,12 +15,12 @@ Write a Java program to enable the operations team of the school to enter marks 
 The marks in each of the subject should be taken as input from the user and stored in arrays. Please note that the marks scored can have up to two digits after the decimal point.
 
 Based on average marks scored, each student is graded. The grading strategy is as follows:
-- Average Marks >=95 -- 'O'
-- Average Marks >=80 and <90 -- 'A'
-- Average Marks >=70 and <80 -- 'B'
-- Average Marks >=60 and <70 -- 'C'
-- Average Marks >=50 and <60 -- 'D'
-- Average Marks <50 -- 'E'
+- Average Marks >=95 -- 'A'
+- Average Marks >=80 and <90 -- 'B'
+- Average Marks >=70 and <80 -- 'C'
+- Average Marks >=60 and <70 -- 'D'
+- Average Marks >=50 and <60 -- 'E'
+- Average Marks <50 -- 'F'
 
 The application should able to:
 1.	Generate the grade, store it in an array, and display the grade for each student along with their total and average marks.
