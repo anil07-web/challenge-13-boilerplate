@@ -35,9 +35,9 @@ class Task13{
         for(int j=0;j<n;j++){
         total[j]=(math[j]+sci[j]+eng[j]+lang[j]+ss[j]);
         avg[j]=total[j]/5;
-        if(avg[j]>=95)
+        if(avg[j]>=90)
           grade[j]='A';
-         else if(avg[j]>=80&&avg[j]<95)
+         else if(avg[j]>=80&&avg[j]<90)
           grade[j]='B';
          else if(avg[j]>=70&&avg[j]<80)
           grade[j]='C';
